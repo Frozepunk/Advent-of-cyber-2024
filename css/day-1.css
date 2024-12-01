@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    animation: fadeIn 1s ease-out;
+}
+
+h1, h2, h3, h4 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2.8em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+/* Code and Pre Styles */
+pre {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    animation: fadeIn 2s ease-out;
+    border: 1px solid #ffcc00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Code styles */
+code {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Links */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6f61;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Simple Animation Effects */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Styling for specific blocks */
+.content-block {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    animation: fadeIn 2s ease-out;
+}
+.hints{
+    text-align: center;
+}
+.hints-1{
+    text-align: center;
+}
