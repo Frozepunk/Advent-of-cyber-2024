@@ -17,7 +17,7 @@ Each day, a new problem is unlocked, combining **fun puzzles** and **programming
 ## 🌟 How You Can Support
 If you enjoy my work or find my explanations helpful, please consider giving this repository a ⭐ on GitHub! Your support means the world to me. 🥰✨
 
-[![Give a ⭐](https://github.com/Frozepunk/Advent-of-cyber-2024))]
+[[Give a ⭐](https://github.com/Frozepunk/Advent-of-cyber-2024))]
 
 ---
 
