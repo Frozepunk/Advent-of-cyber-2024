@@ -26,5 +26,12 @@ Feel free to check out the challenges and join me on this exciting journey!
 🌐 Visit [Advent of Code](https://adventofcode.com/) and start your own adventure.
 
 ---
+---
+
+## 💡 Want some hints 
+Feel free to check out my break down of problem with a example code 
+🌐 Visit [My website](https://frozepunk.github.io/Advent-of-cyber-2024/)
+
+---
 
 🎉 **Best of luck solving the puzzles!** 🧩🎄
