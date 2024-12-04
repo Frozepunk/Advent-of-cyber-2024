@@ -1,0 +1,130 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #6c63ff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Main Content Styling */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    color: #6c63ff;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  code {
+    background: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    color: #d6336c;
+    font-family: Consolas, 'Courier New', monospace;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #6c63ff;
+    color: #fff;
+  }
+  
+  /* Syntax Highlighting for Python Code */
+  pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  code {
+    display: block;
+    white-space: pre-wrap;
+  }
+  
+  /* Keywords */
+  code .keyword {
+    color: #66d9ef; /* Light blue */
+    font-weight: bold;
+  }
+  
+  /* Strings */
+  code .string {
+    color: #a6e22e; /* Green */
+  }
+  
+  /* Comments */
+  code .comment {
+    color: #75715e; /* Gray */
+    font-style: italic;
+  }
+  
+  /* Numbers */
+  code .number {
+    color: #ae81ff; /* Purple */
+  }
+  
+  /* Functions */
+  code .function {
+    color: #fd971f; /* Orange */
+  }
+  
+  /* Section-specific Styling */
+  #story p, #problem p, #examples p {
+    font-size: 1rem;
+  }
+  
+  #examples article {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #f9f9f9;
+  }
+  
+  #code h3 {
+    margin-top: 1.5rem;
+    color: #444;
+  }
+  
+  /* Highlighting Inline Code Snippets */
+  code.inline {
+    background: #eee;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    color: #d6336c;
+  }
+  
