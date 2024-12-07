@@ -71,9 +71,6 @@ def solve_part_two(rules, updates):
             incorrect_updates_middle_sum += reordered_update[middle_index]
 
     return incorrect_updates_middle_sum
-
-
-
 file_path = "src\day-5\input.txt"
 rules, updates = parse(file_path)
 result = solve_part_two(rules, updates)
